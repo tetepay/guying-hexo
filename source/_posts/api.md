@@ -6,7 +6,7 @@ tags:
 top: 1
 category:
   - api
-cover: 'https://document.cuixinyu.com/random/img/5.png'
+cover: 'https://img01.anheyu.com/useruploads/198/2023/11/18/6558cf0de21c1.png'
 ai: true
 abbrlink: b49df70t
 date: 2023-06-10 10:07:07
@@ -21,11 +21,11 @@ updated: 2023-06-10 10:07:07
   flink_style: anzhiyu
   link_list:
     - name: 美女研究所
-      link: /posts/6191.html
+      link: /2023/06/14/api/美女研究所/index.html
       avatar: http://jiuli.xiaoapi.cn/favicon.ico
       descr: 来自于久黎API
     - name: 小爱同学聊天
-      link: /posts/b3b4.html
+      link: /2023/06/14/api/小爱聊天接口/index.html
       avatar: http://jiuli.xiaoapi.cn/favicon.ico
       descr: 来自于久黎API
 {% endflink %}
