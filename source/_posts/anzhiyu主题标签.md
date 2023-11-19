@@ -7,7 +7,7 @@ tags:
 description: 添加大量外挂标签样式。
 top_img: "https://img02.anheyu.com/adminuploads/1/2022/09/05/6315e146a8bbd.webp"
 cover: "https://img02.anheyu.com/adminuploads/1/2022/09/05/6315e146a8bbd.webp"
-swiper_index: 6
+main_color: "#118C69"
 abbrlink: d50a
 date: 2023-06-01 15:55:44
 comments:
