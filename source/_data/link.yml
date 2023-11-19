@@ -16,6 +16,13 @@
   flink_style: telescopic
   hundredSuffix: ""
   link_list:
+    - name: 孤影小站`Blog
+      link: https://blog.guyinga.top/
+      avatar: https://img01.anheyu.com/useruploads/198/2023/11/16/655628c5cf342.png
+      descr: 分享网络安全与科技生活，あ布鸢尾绽放,一瓣心香,折刃不弃,纸质柔情
+      siteshot: https://img01.anheyu.com/useruploads/198/2023/11/16/6556346debdc5.jpeg
+      color: vip
+      tag: 本站
     - name: 安知鱼
       link: https://blog.anheyu.com/
       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
@@ -39,20 +46,20 @@
       avatar: https://avatar.qjqq.cn/1/6503bb1b7fa1a.webp!avatar
       descr: 分享网络安全与科技生活
       siteshot: https://avatar.qjqq.cn/1/647571edf20a9.webp!avatar
-      recommend: true
     - name: 冰火的砺炼
       link: https://blog.marice.top/
       avatar: https://pic.imgdb.cn/item/63957624b1fccdcd363145ca.png
       descr: 水穷暖春云起处
-      recommend: true
     - name: 煮雪话河山`Blog
       link: https://blog.cent1pedee.top/
       avatar: https://img.cent1pedee.top/img/wechat.jpg
       descr: 如月之恒，如日之升。
       siteshot: https://img.cent1pedee.top/img/siteshot.png
-      recommend: true
     - name: 墨尘的生活小站
       link: https://mnchen.top/
       avatar: https://upload-bbs.miyoushe.com/upload/2023/05/20/202672061/e04b8ca642e6e6028c537040720ffa98_2321845104782619490.jpg
       descr: 虽多尘色染，犹见墨痕浓
-      recommend: true
+    - name: 余墨白
+      link: https://blog.yumobai.cn/
+      avatar: https://img.yumobai.cn//yumobai/img头像5.ico
+      descr: 虽多尘色染，犹见墨痕浓
