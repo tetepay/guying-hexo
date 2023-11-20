@@ -6,8 +6,8 @@ tags:
 top: 1
 category:
   - api
-cover: 'https://img01.anheyu.com/useruploads/198/2023/11/18/6558cf0de21c1.png'
-top_img: 'https://img01.anheyu.com/useruploads/198/2023/11/18/6558cf0de21c1.png'
+cover: 'https://s3.qjqq.cn/17/64ff3c02d77f0.webp'
+top_img: 'https://s3.qjqq.cn/17/64ff3c02d77f0.webp'
 ai: true
 abbrlink: b49df70t
 date: 2023-06-10 10:07:07

@@ -1,7 +1,7 @@
 ---
 title: Hello World
-top_img: "https://img01.anheyu.com/useruploads/198/2023/11/16/6556283893ada.jpg"
-cover: "https://img01.anheyu.com/useruploads/198/2023/11/16/6556283893ada.jpg"
+top_img: "https://s3.qjqq.cn/17/64fbd3a28414c.webp"
+cover: "https://s3.qjqq.cn/17/64fbd3a28414c.webp"
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
