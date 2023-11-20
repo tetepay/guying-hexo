@@ -1,9 +1,9 @@
 ---
-title: 关于
-date: 2023-11-15 23:48:33
+title: 关于本人
+date: 2023-11-19 00:00:00
 aside: false
 top_img: false
-background: "#f8f9fe"
+background: "#56a178"
 comments: false
 type: "about"
 ---

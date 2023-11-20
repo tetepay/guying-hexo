@@ -9,20 +9,23 @@
     - name: anzhiyu主题
       link: https://blog.anheyu.com/
       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
-      descr: 分享网络安全与科技生活，あ布鸢尾绽放,一瓣心香,折刃不弃,纸质柔情
+      descr: 生活明朗，万物可爱
       siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+    - name: Vercel
+      link: https://vercel.com/
+      avatar: https://resource.joker2yue.cn/blog/images/link/avatar/vercle.png
+      descr: Develop. Preview. Ship. For the best frontend teams
+      siteshot: https://resource.joker2yue.cn/blog/images/link/siteshot/vercel.com.png
+    - name: 多吉云
+      link: https://www.dogecloud.com/
+      avatar: https://resource.joker2yue.cn/blog/images/link/avatar/dogecloud.png
+      descr: 视频云- 云存储- 网站加速
+      siteshot: https://resource.joker2yue.cn/blog/images/link/siteshot/dogecloud.com.jpg
 
 - class_name: 推荐博客
   flink_style: telescopic
   hundredSuffix: ""
   link_list:
-    - name: 孤影小站`Blog
-      link: https://blog.guyinga.top/
-      avatar: https://img01.anheyu.com/useruploads/198/2023/11/16/655628c5cf342.png
-      descr: 分享网络安全与科技生活，あ布鸢尾绽放,一瓣心香,折刃不弃,纸质柔情
-      siteshot: https://img01.anheyu.com/useruploads/198/2023/11/16/6556346debdc5.jpeg
-      color: vip
-      tag: 本站
     - name: 安知鱼
       link: https://blog.anheyu.com/
       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
@@ -30,6 +33,28 @@
       siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
       color: vip
       tag: 技术
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://img02.anheyu.com/adminuploads/1/2022/09/02/6311fc38f1465.webp
+      descr: 分享设计与科技生活
+      siteshot: https://img02.anheyu.com/adminuploads/1/2022/09/02/6311fc3959f82.webp
+      color: vip
+    - name: Tianli
+      link: https://tianli-blog.club/
+      avatar: https://img02.anheyu.com/adminuploads/1/2022/11/11/636db0d451fd0.webp
+      descr: 惟其不可能，所以才相信
+      siteshot: https://img02.anheyu.com/adminuploads/1/2022/11/07/6368520c9e4e7.webp
+    - name: Mycpen
+      link: https://blog.cpen.top/
+      avatar: https://img02.anheyu.com/adminuploads/1/2022/12/03/638b0c930633c.png!linkavatar
+      descr: 这是一个有趣的博客
+      siteshot: https://resource.joker2yue.cn/blog/images/link/siteshot/blog.cpen.jpg
+    - name: 小哲
+      link: https://www.lazychild.fun/
+      avatar: https://xiao-zhe-is-not-lazy.gitee.io/lazychild-img/tou.gif
+      descr: 坚持就是胜利😀😀
+      siteshot: https://resource.joker2yue.cn/blog/images/link/siteshot/lazychild.fun.jpg
+
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事
@@ -41,25 +66,8 @@
       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
       descr: 生活明朗，万物可爱
       recommend: true
-    - name: 青桔气球
-      link: https://blog.qjqq.cn/
-      avatar: https://avatar.qjqq.cn/1/6503bb1b7fa1a.webp!avatar
-      descr: 分享网络安全与科技生活
-      siteshot: https://avatar.qjqq.cn/1/647571edf20a9.webp!avatar
-    - name: 冰火的砺炼
-      link: https://blog.marice.top/
-      avatar: https://pic.imgdb.cn/item/63957624b1fccdcd363145ca.png
-      descr: 水穷暖春云起处
-    - name: 煮雪话河山`Blog
-      link: https://blog.cent1pedee.top/
-      avatar: https://img.cent1pedee.top/img/wechat.jpg
-      descr: 如月之恒，如日之升。
-      siteshot: https://img.cent1pedee.top/img/siteshot.png
-    - name: 墨尘的生活小站
-      link: https://mnchen.top/
-      avatar: https://upload-bbs.miyoushe.com/upload/2023/05/20/202672061/e04b8ca642e6e6028c537040720ffa98_2321845104782619490.jpg
-      descr: 虽多尘色染，犹见墨痕浓
-    - name: 余墨白
-      link: https://blog.yumobai.cn/
-      avatar: https://img.yumobai.cn//yumobai/img头像5.ico
-      descr: 虽多尘色染，犹见墨痕浓
+    - name: 小哲
+      link: https://www.lazychild.fun/
+      avatar: https://xiao-zhe-is-not-lazy.gitee.io/lazychild-img/tou.gif
+      descr: 坚持就是胜利😀😀
+      recommend: false

@@ -1,6 +1,6 @@
 ---
 title: 即刻短文
-date: 2023-11-15 23:57:37
+date: 2023-11-19 00:00:00
 comments: true
 aside: false
 top_img: false

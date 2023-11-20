@@ -1,131 +1,228 @@
-# 我们是谁
-
-我们的站点地址是：你的网址。
-
-# 评论
-
-当访客留下评论时，我们会收集评论表单所显示的数据，和访客的IP地址及浏览器的user agent字符串来帮助检查垃圾评论。
-
-# 媒体
-
-如果您向此网站上传图片，您应当避免上传那些有嵌入地理位置信息（EXIF GPS）的图片。此网站的访客将可以下载并提取此网站的图片中的位置信息。
-
-# Cookies
-
-如果您在我们的站点上留下评论，您可以选择用cookies保存您的名字、电子邮箱地址和网站地址。这是通过让您可以不用在评论时再次填写相关内容而向您提供方便。这些cookies会保留一年。
-
-如果您访问我们的登录页，我们会设置一个临时的cookie来确认您的浏览器是否接受cookies。此cookie不包含个人数据，且会在您关闭浏览器时被丢弃。
-
-当您登录时，我们也会设置多个cookies来保存您的登录信息及屏幕显示选项。登录cookies会保留两天，而屏幕显示选项cookies会保留一年。如果您选择了“记住我”，您的登录状态则会保留两周。如果您注销登陆了您的账户，用于登录的cookies将会被移除。
-
-如果您编辑或发布文章，我们会在您的浏览器中保存一个额外的cookie。这个cookie不包含个人数据而只记录了您刚才编辑的文章的ID。这个cookie会保留一天。
-
-相见：你的cookie页面。
-
-# 来自其他网站的嵌入内容
-
-此站点上的文章可能会包含嵌入的内容（如视频、图片、文章等）。来自其他站点的嵌入内容的行为和您直接访问这些其他站点没有区别。
-
-这些站点可能会收集关于您的数据、使用cookies、嵌入额外的第三方跟踪程序及监视您与这些嵌入内容的交互，包括在您有这些站点的账户并登录了这些站点时，跟踪您与嵌入内容的交互。
-
-# 我们与谁共享您的信息
-
-评论系统与和风天气等
-
-# 我们保留多久您的信息
-
-如果您留下评论，评论和其元数据将被无限期保存。我们这样做以便能识别并自动批准任何后续评论，而不用将这些后续评论加入待审队列。
-
-# 您对您的信息有什么权利
-
-如果您如果您有此站点的账户，或曾经留下评论，您可以请求我们提供我们所拥有的您的个人数据的导出文件，这也包括了所有您提供给我们的数据。您也可以要求我们抹除所有关于您的个人数据。这不包括我们因管理、法规或安全需要而必须保留的数据。
-
-# 您的数据将发送到何处
-
-会被站长或管理员查看
-
-<!-- 在表格中添加 id 以便于通过 JavaScript 获取元素 -->
-<table>
-    <thead>
-    <tr>
-        <th>类型</th>
-        <th>信息</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td colspan="2"><b>网络信息</b></td>
-    </tr>
-    <tr>
-        <td>IP地址</td>
-        <td><div id="userAgentIp"></div></td>
-    </tr>
-    <tr>
-        <td>州/大陆</td>
-        <td><div id="userAgentState"></div></td>
-    </tr>
-    <tr>
-        <td>国家</td>
-        <td><div id="userAgentCountry"></div></td>
-    </tr>
-    <tr>
-        <td>省份</td>
-        <td><div id="userAgentProv"></div></td>
-    </tr>
-    <tr>
-        <td>城市</td>
-        <td><div id="userAgentCity"></div></td>
-    </tr>
-    <tr>
-        <td>区</td>
-        <td><div id="userAgentDistrict"></div></td>
-    </tr>
-    <tr>
-        <td>运营商</td>
-        <td><div id="userAgentISP"></div></td>
-    </tr>
-    <tr>
-        <td colspan="2"><b>设备信息</b></td>
-    </tr>
-    <tr>
-        <td>设备</td>
-        <td><div id="userAgentDevice"></div></td>
-    </tr>
-    </tbody>
-</table>
+---
+title: 隐私政策
+date: 2023-11-19 00:00:00
+type: privacy
+top_img: false
+comments: false
+aside: false
+---
 
 <!-- 在模板文件中添加 JavaScript 代码 -->
 <script>
     (async function() {
-    async function getIpInfo() {
-        var fetchUrl = "https://api.qjqq.cn/api/Local";
-        try {
-            var response = await fetch(fetchUrl);
-            var json = await response.json();
-
-            var ip = json.ip;
-            var continent = json.data.continent;
-            var country = json.data.country;
-            var prov = json.data.prov;
-            var city = json.data.city;
-            var district = json.data.district;
-            var isp = json.data.isp;
-
-            document.getElementById("userAgentIp").innerHTML = ip;
-            document.getElementById("userAgentState").innerHTML = continent;
-            document.getElementById("userAgentCountry").innerHTML = country;
-            document.getElementById("userAgentProv").innerHTML = prov;
-            document.getElementById("userAgentCity").innerHTML = city;
-            document.getElementById("userAgentDistrict").innerHTML = district;
-            document.getElementById("userAgentISP").innerHTML = isp;
-
-            var uaInfo = navigator.userAgent;
-            document.getElementById("userAgentDevice").innerHTML = uaInfo;
-        } catch (error) {
-            console.error("An error occurred while fetching IP info:", error);
+        async function getIpInfo() {
+            var fetchUrl = "https://api.qjqq.cn/api/Local";
+            try {
+                var uaInfo = navigator.userAgent;
+                var response = await fetch(fetchUrl);
+                var json = await response.json();
+                var ip = json.ip;
+                var continent = json.data.continent;
+                var country = json.data.country;
+                var prov = json.data.prov;
+                var city = json.data.city;
+                var district = json.data.district;
+                var isp = json.data.isp;
+                var currentUrl = window.location.href;
+                document.getElementById("userAgentIp").innerHTML = ip;
+                document.getElementById("userAgentState").innerHTML = continent;
+                document.getElementById("userAgentCountry").innerHTML = country;
+                document.getElementById("userAgentProv").innerHTML = prov;
+                document.getElementById("userAgentCity").innerHTML = city;
+                document.getElementById("userAgentDistrict").innerHTML = district;
+                document.getElementById("userAgentISP").innerHTML = isp;
+                document.getElementById("userAgentDevice").innerHTML = uaInfo;
+                document.getElementById("userAgentUrl").innerHTML = currentUrl;
+                var hostnameRegex = /\/\/(.*?)\//;
+                var matches = currentUrl.match(hostnameRegex);
+                if (matches && matches.length > 1) {
+                    var domain = matches[1];
+                    document.getElementById("userAgentUrl").innerHTML = domain;
+                } else {
+                    document.getElementById("userAgentUrl").innerHTML = "joker2yue.github.io";
+                }
+            } catch (error) {
+                console.error("An error occurred while fetching IP info:", error);
+            }
         }
+        await getIpInfo();
     }
-
-    await getIpInfo();
-})();
+    )();
 </script>
+
+<p>本站非常重视用户的隐私和个人信息保护。你在使用网站时，可能会收集和使用你的相关信息。通过《隐私政策》向你说明在你访问 <code id="userAgentUrl"></code> 网站时，如何收集、使用、保存、共享和转让这些信息。</p>
+
+## 最后更新时间
+协议最后更新时间为：2023-09-27
+
+## 一、在访问时如何收集和使用你的个人信息
+
+### 在访问时，收集访问信息的服务会收集不限于以下信息：
+
+**网络身份标识信息**（浏览器 UA、IP 地址）
+
+**设备信息**
+
+**浏览过程**（操作方式、浏览方式与时长、性能与网络加载情况）。
+
+### 在访问时，本站内置的第三方服务会通过以下或更多途径，来获取你的以下或更多信息：
+
+* **百度统计工具** 会收集你的访问信息、访问操作过程
+* **51la 统计工具** 会收集你的访问信息
+* **灵雀应用监控平台** 会收集你的访问操作过程和资源加载情况
+* **今日头条搜索** 会收集你的访问信息
+* **字节跳动静态资源库** 会收集你的访问信息
+* **Tianlicdn** 会收集你的访问信息
+* **busuanzi** 统计 会收集你的访问信息
+* **腾讯云** 会收集你的访问信息
+* **腾讯 Codesign** 会收集你的访问信息
+* **阿里 cdn（iconfont）** 会收集你的访问信息
+* **QQ 音乐** 会收集你的访问信息
+* **网易云 音乐** 会收集你的访问信息
+
+### 在访问时，本人仅会处于以下目的，使用你的个人信息：
+
+* 用于网站的优化与文章分类，用户优化文章
+* 恶意访问识别，用于维护网站
+  恶意攻击排查，用于维护网站
+* 网站点击情况监测，用于优化网站页面
+* 网站加载情况监测，用于优化网站性能
+* 用于网站搜索结果优化
+* 浏览数据的展示
+
+### 第三方信息获取方将您的数据用于以下用途：
+
+第三方可能会用于其他目的，详情请访问对应第三方服务提供的隐私协议。
+
+### 你应该知道在你访问的时候不限于以下信息会被第三方获取并使用：
+
+第三方部分为了抵抗攻击、使用不同节点 cdn 加速等需求会收集不限于以下信息：
+
+<!-- 在表格中添加 id 以便于通过 JavaScript 获取元素 -->
+<table>
+    <thead>
+        <tr>
+            <th>类型</th>
+            <th>信息</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2">
+                <b>网络信息</b>
+            </td>
+        </tr>
+        <tr>
+            <td>IP地址</td>
+            <td>
+                <div id="userAgentIp"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>州/大陆</td>
+            <td>
+                <div id="userAgentState"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>国家</td>
+            <td>
+                <div id="userAgentCountry"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>省份</td>
+            <td>
+                <div id="userAgentProv"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>城市</td>
+            <td>
+                <div id="userAgentCity"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>区</td>
+            <td>
+                <div id="userAgentDistrict"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>运营商</td>
+            <td>
+                <div id="userAgentISP"></div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <b>设备信息</b>
+            </td>
+        </tr>
+        <tr>
+            <td>设备</td>
+            <td>
+                <div id="userAgentDevice"></div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div style="color:var(--anzhiyu-gray);font-size:14px">此页面如果未能获取到信息并不代表无法读取上述信息，以实际情况为准。</div>
+
+## 二、在评论时如何收集和使用你的个人信息
+
+评论使用的是无登陆系统的匿名评论系统，你可以自愿填写真实的、或者虚假的信息作为你评论的展示信息。
+
+**鼓励你使用不易被人恶意识别的昵称进行评论**，但是建议你填写**真实的邮箱**以便收到回复（邮箱信息不会被公开）。
+
+在你评论时，会额外收集你的个人信息。
+
+### 在评论时，本站内置的第三方服务会通过以下或更多途径，来获取你的相关信息：
+
+* cravatar 会收集你的访问信息、评论填写的个人信息用于展示头像
+
+### 在访问时，本人仅会处于以下目的，收集并使用以下信息：
+
+* 评论时会记录你的 QQ 帐号（如果在邮箱位置填写 QQ 邮箱或 QQ 号），方便获取你的 QQ 头像。如果使用 QQ 邮箱但不想展示 QQ 头像，可以填写不含 QQ 号的 QQ 邮箱。（主动，存储）
+* 评论时会记录你的邮箱，当我回复后会通过邮件通知你（主动，存储，不会公开邮箱）
+* 评论时会记录你的网址，用于点击头像时快速进入你的网站（主动，存储）
+* 评论时会记录你的 IP 地址，作为反垃圾的用户判别依据（被动，存储，不会公开 IP，会公开 IP 所在城市）
+* 评论会记录你的浏览器代理，用作展示系统版本、浏览器版本方便展示你使用的设备，快速定位问题（被动，存储）
+
+## 三、如何使用-Cookies-和本地-LocalStorage-存储
+
+本站为实现无账号评论、深色模式切换，不蒜子的 uv 统计等功能，会在你的浏览器中进行本地存储，你可以随时清除浏览器中保存的所有 Cookies 以及 LocalStorage，不影响你的正常使用。
+
+本博客中的以下业务会在你的计算机上主动存储数据：
+
+**`内置服务`**
+
+* 评论系统
+* 即刻短文
+* 鱼塘
+* 中控台
+* 胶囊音乐
+
+**`第三方服务`**
+
+* 百度统计
+* 51a 统计
+* busuanzi 统计
+
+关于如何使用你的 Cookies，请访问 [Cookies 政策](../cookies)。
+
+关于如何[在 Chrome 中清除、启用和管理 Cookie](https://support.google.com/chrome/answer/95647?co=GENIE.Platform=Desktop&hl=zh-Hans)。
+
+## 四、如何共享、转让你的个人信息
+
+本人不会与任何公司、组织和个人共享你的隐私信息
+
+本人不会将你的个人信息转让给任何公司、组织和个人
+
+第三方服务的共享、转让情况详见对应服务的隐私协议
+
+## 五、附属协议
+
+当监测到存在恶意访问、恶意请求、恶意攻击、恶意评论的行为时，为了防止增大受害范围，可能会临时将你的 ip 地址及访问信息短期内添加到黑名单，短期内禁止访问。
+
+此黑名单可能被公开，并共享给其他站点（主体并非本人）使用，包括但不限于：IP 地址、设备信息、地理位置。

@@ -13,13 +13,15 @@ menu:
     音乐馆: /music/ || anzhiyu-icon-music
     追番页: /bangumis/ || anzhiyu-icon-bilibili
     相册集: /album/ || anzhiyu-icon-images
-  #  小空调: /air-conditioner/ || anzhiyu-icon-fan
+    小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
     我的装备: /equipment/ || anzhiyu-icon-dice-d20
+    本站建设: /website/ || anzhiyu-icon-cube
+    
 
 # nav相关配置
 nav:
@@ -169,18 +171,21 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    # - /img/default_cover.jpg
+      - https://resource.joker2yue.cn/blog/images/coverImg/default/default_cover1.png
+      - https://resource.joker2yue.cn/blog/images/coverImg/default/default_cover2.jpg
+      - https://resource.joker2yue.cn/blog/images/coverImg/default/default_cover3.jpg
+      - https://resource.joker2yue.cn/blog/images/coverImg/default/default_cover4.jpg
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
-  flink: /img/friend_404.gif
-  post_page: /img/404.jpg
+  flink: https://resource.joker2yue.cn/blog/images/joker_404.png
+  post_page: https://resource.joker2yue.cn/blog/images/404.jpg
 
 # A simple 404 page
 error_404:
   enable: true
-  subtitle: "请尝试站内搜索寻找文章"
-  background: https://bu.dusays.com/2023/05/08/645907596997d.gif
+  subtitle: "哎呀，页面走丢咯"
+  background: https://resource.joker2yue.cn/blog/images/joker_404.png
 
 post_meta:
   page: # Home Page
@@ -200,9 +205,9 @@ post_meta:
 # 主色调相关配置
 mainTone:
   enable: true # true or false 文章是否启用获取图片主色调
-  mode: api # cdn/api/both cdn模式为图片url+imageAve参数获取主色调，api模式为请求API获取主色调，both模式会先请求cdn参数，无法获取的情况下将请求API获取
+  mode: both # cdn/api/both cdn模式为图片url+imageAve参数获取主色调，api模式为请求API获取主色调，both模式会先请求cdn参数，无法获取的情况下将请求API获取
   # 项目地址：https://github.com/anzhiyu-c/img2color-go
-  api: https://api.qjqq.cn/api/Imgcolor?img= # mode为api时可填写
+  api: https://img2color-go.joker2yue.cn/api?img= # mode为api时可填写
   cover_change: true # 整篇文章跟随cover修改主色调
 
 # wordcount (字数统计)
@@ -294,7 +299,7 @@ post_pagination: 2
 # Displays outdated notice for a post (文章过期提醒)
 noticeOutdate:
   enable: true
-  style: flat # style: simple/flat
+  style: simple # style: simple/flat
   limit_day: 365 # When will it be shown
   position: top # position: top/bottom
   message_prev: It has been
@@ -481,22 +486,22 @@ footer:
     enable: true
     randomFriends: 3
     project:
-      # - title: 服务
-      #   links:
-      #     - title: 51la统计
-      #       link: https://v6.51.la/
-      #     - title: 十年之约
-      #       link: https://www.foreverblog.cn/
-      #     - title: 开往
-      #       link: https://github.com/travellings-link/travellings
-      # - title: 主题
-      #   links:
-      #     - title: 文档
-      #       link: /docs/
-      #     - title: 源码
-      #       link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-      #     - title: 更新日志
-      #       link: /update/
+       - title: 服务
+         links:
+          - title: 51la统计
+            link: https://v6.51.la/
+          - title: 十年之约
+            link: https://foreverblog.cn/go.html
+          - title: 开往
+            link: https://github.com/travellings-link/travellings
+       - title: 主题
+         links:
+          - title: 文档
+            link: https://docs.anheyu.com/
+          - title: 源码
+            link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
+          - title: 本站建设
+            link: /website/
        - title: 导航
          links:
           - title: 即刻短文
@@ -800,12 +805,12 @@ aside:
     category: true
   card_author:
     enable: true
-    description: # <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div> # 默认为站点描述
+    description:  <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">我热衷于在<b style="color:#fff">数字世界</b>中寻找灵感，用<b style="color:#fff">文字</b>来记录下每一个<b style="color:#fff">思考和发现</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">感谢你的光临，希望我的博客能为你带来有<b style="color:#fff">价值</b>的信息，<b style="color:#fff">享受</b>阅读的乐趣！</div> # 默认为站点描述
     name_link: /
 
   card_announcement:
     enable: true
-    content: 欢迎来看我的博客鸭~
+    content: 小破站终于搭建完成啦，快来围观吧~
   card_weixin:
     enable: true
     face: https://bu.dusays.com/2023/01/13/63c02edf44033.png
@@ -826,8 +831,9 @@ aside:
     color: false
     sort_order: # Don't modify the setting unless you know how it works
     highlightTags:
-      # - Hexo
-      # - 前端
+       - Java
+       - 狂神
+       - 必看
   card_archives:
     enable: true
     type: monthly # yearly or monthly
@@ -967,7 +973,7 @@ note:
   light_bg_offset: 0
 
 icons:
-  ali_iconfont_js: # 阿里图标symbol 引用链接，主题会进行加载 symbol 引用
+  ali_iconfont_js: //at.alicdn.com/t/c/font_3320075_10tn9j0ga3lb.js # 阿里图标symbol 引用链接，主题会进行加载 symbol 引用
   fontawesome: false #是否启用fontawesome6图标
   fontawesome_animation_css: #fontawesome_animation 如果有就会加载，示例值：https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css
 
@@ -980,8 +986,10 @@ icons:
 pjax:
   enable: true
   exclude:
-    # - xxxx
-    # - xxxx
+    - /music/
+    - /no-pjax/
+    - /images/
+
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
@@ -1006,14 +1014,14 @@ instantpage: true
 # Insert a space between Chinese character and English character (中英文之间添加空格)
 pangu:
   enable: false
-  field: site # site/post
+  field: post # site/post
 
 # Lazyload (图片懒加载)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
   enable: true
   field: site # site/post
-  placeholder:
+  placeholder: https://resource.joker2yue.cn/blog/images/loading.gif
   blur: true
   progressive: true
 
@@ -1046,18 +1054,18 @@ home_top:
   subTitle: 万物可爱。
   siteText: anheyu.com
   category:
-    - name: 前端
-      path: /categories/前端开发/
+    - name: 技术分享
+      path: /tags/技术/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
-    - name: 大学
-      path: /categories/大学生涯/
+    - name: 必看文章
+      path: /tags/必看/
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire
-    - name: 生活
-      path: /categories/生活日常/
+    - name: 狂神说
+      path: /tags/狂神/
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book
@@ -1145,7 +1153,7 @@ ptool:
 
 # 欢迎语配置
 greetingBox:
-  enable: false #开启后必须配置下面的list对应的时间段，不然会出现小白条
+  enable: true #开启后必须配置下面的list对应的时间段，不然会出现小白条
   default: 晚上好👋
   list:
      - greeting: 晚安😴
@@ -1257,15 +1265,15 @@ CDN:
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
   custom_format: # https://npm.elemecdn.com/${name}@latest/${file}
 
-  option:
+option:
     # main_css:
     # main:
     # utils:
-    # translate:
+    # translate: https://jsd.onmicrosoft.cn/npm/js-heo@1.0.12/translate/tw_cn.js
     # random_friends_post_js:
     # right_click_menu_js:
     # comment_barrage_js:
-    # ai_abstract_js:
+    # ai_abstract_js: https://cdn1.tianli0.top/gh/zhheo/Post-Abstract-AI@0.15.1/tianli_gpt.min.js
     # people_js:
     # local_search:
     # algolia_js:
@@ -1273,14 +1281,14 @@ CDN:
     # instantsearch:
     # docsearch_js:
     # docsearch_css:
-    # pjax:
+    # pjax: https://lib.baomitu.com/pjax/0.2.8/pjax.min.js
     # blueimp_md5:
     # valine:
-    # twikoo:
+    twikoo: https://cdn.staticfile.org/twikoo/1.6.22/twikoo.all.min.js
     # waline_js:
     # waline_css:
-    # sharejs:
-    # sharejs_css:
+    # sharejs: https://lib.baomitu.com/social-share.js/latest/js/social-share.min.js
+    # sharejs_css: https://lib.baomitu.com/social-share.js/latest/css/share.min.css
     # mathjax:
     # katex:
     # katex_copytex:
@@ -1288,15 +1296,15 @@ CDN:
     # canvas_ribbon:
     # canvas_fluttering_ribbon:
     # canvas_nest:
-    # lazyload:
-    # instantpage:
+    # lazyload: https://cdn.cbd.int/vanilla-lazyload@latest/dist/lazyload.iife.min.js
+    # instantpage: https://npm.elemecdn.com/instant.page@latest/instantpage.js
     # typed:
     # pangu:
-    # fancybox_css:
-    # fancybox:
+    # fancybox_css: https://jsd.onmicrosoft.cn/npm/@fancyapps/ui/dist/fancybox.min.css
+    # fancybox: https://jsd.onmicrosoft.cn/npm/@fancyapps/ui/dist/fancybox.umd.js
     # medium_zoom:
-    # snackbar_css:
-    # snackbar:
+    # snackbar_css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.css
+    # snackbar: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.js
     # activate_power_mode:
     # fireworks:
     # click_heart:
@@ -1304,21 +1312,22 @@ CDN:
     # fontawesome:
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
-    # aplayer_css:
-    # aplayer_js:
-    # meting_js:
-    # meting_api:
+    aplayer_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css
+    aplayer_js: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js
+    meting_js: https://jsd.onmicrosoft.cn/gh/hexo-theme-Acrylic/JS-Acrylic@main/Meting.js
+    meting_api: https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:
     # artalk_js:
     # artalk_css:
-    # pace_js:
-    # pace_default_css:
+    # pacejs: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/pace/1.2.4/pace.min.js
+    # pace_default_css: https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css
     # countup_js:
     # gsap_js:
-    # busuanzi:
+    # busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
     # rightmenu:
     # waterfall:
-    # ali_iconfont_css:
+    # ali_iconfont_css: https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css
     # accesskey_js:
+
