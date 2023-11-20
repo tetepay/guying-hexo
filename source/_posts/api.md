@@ -8,7 +8,6 @@ category:
   - api
 cover: 'https://img01.anheyu.com/useruploads/198/2023/11/18/6558cf0de21c1.png'
 top_img: 'https://img01.anheyu.com/useruploads/198/2023/11/18/6558cf0de21c1.png'
-main_color: "#D9A491"
 ai: true
 abbrlink: b49df70t
 date: 2023-06-10 10:07:07
