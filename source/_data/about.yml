@@ -1,8 +1,19 @@
-- class_name: 关于我
-  subtitle: Joker Never Plays Jokes.✨
-  avatarImg: https://resource.joker2yue.cn/blog/images/avatar_joker.jpg
-  name: 罗越
-  description: 00后，学生、程序猿、独立开发者、个人博主、数码爱好者
+- class_name: 关于页
+  subtitle: 分享网络安全与科技生活，あ布鸢尾绽放,一瓣心香,折刃不弃,纸质柔情✨
+  avatarImg: https://img01.anheyu.com/useruploads/198/2023/11/16/6555c6fb5f14d.png
+  avatarSkills:
+    left:
+      - 🤖️ 数码科技爱好者
+      - 🔍 分享与热心帮助
+      - 🏠 智能家居小能手
+      - 🔨 设计开发一条龙
+    right:
+      - 专修交互与设计 🤝
+      - 脚踏实地行动派 🏃
+      - 团队小组发动机 🧱
+      - 壮汉人狠话不多 💢
+  name: 孤影
+  description: 是一名 前端工程师、独立开发者、博主
   aboutsiteTips:
     tips: 追求
     title1: 源于
@@ -11,19 +22,8 @@
       - 学习
       - 生活
       - 程序
-      - 旅行
-  helloAbout: Hello There!
-  avatarSkills:
-    left:
-      - "🤖️ 数码科技爱好者"
-      - "🔍 分享与热心帮助"
-      - "🏠 智能家居小能手"
-      - "🔨 设计开发一条龙"
-    right:
-      - "专修交互与设计 🤝"
-      - "脚踏实地行动派 🏃"
-      - "团队小组发动机 🧱"
-      - "壮汉人狠话不多 💢"
+      - 体验
+  helloAbout: Hello there!
   skillsTips:
     tips: 技能
     title: 开启创造力
@@ -31,65 +31,67 @@
     tips: 生涯
     title: 无限进步
     list:
-      - desc: HNIT，软件工程专业
+      - desc: EDU,软件工程专业
         color: "#357ef5"
-    img: https://resource.joker2yue.cn/blog/images/about/career/life.png
+      - desc: EDU,软件工程专业
+        color: "#357ef5"
+      - desc: EDU,软件工程专业
+        color: "#357ef5"
+    img: https://bu.dusays.com/2023/04/21/644287166329b.png
   statistic:
     link: /archives
     text: 文章隧道
     cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
   map:
-    title: 现居
-    StrengthenTitle: 中国，邵阳
-    background: https://resource.joker2yue.cn/blog/images/about/location/location_light.png
-    backgroundDark: https://resource.joker2yue.cn/blog/images/about/location/location_dark.png
+    title: 我现在住在
+    StrengthenTitle: 中国，江西
+    background: https://img01.anheyu.com/useruploads/198/2023/11/19/6559d69b0a68e.jpg
+    backgroundDark: https://img01.anheyu.com/useruploads/198/2023/11/19/6559d69b134cc.jpg
   selfInfo:
     selfInfoTips1: 生于
-    selfInfoContentYear: 2004
-    selfInfoTips2: 湖南工学院
+    selfInfoContentYear: 2002
+    selfInfoTips2: 湖南信息学院
     selfInfoContent2: 软件工程
     selfInfoTips3: 现在职业
     selfInfoContent3: 大三学生👨‍🎓
   personalities:
-    author_name: 竞选者
-    personality_type: ENFP-T
-    personality_type_color: "#33a474"
-    color: "#fff"
-    photo_url: https://resource.joker2yue.cn/blog/images/about/personality/self.jpg
-    personality_img: https://resource.joker2yue.cn/blog/images/about/personality/ENFP_full_left.png
-    name_url: https://www.16personalities.com/ch/enfp-人格
+    author_name: 执政官
+    personality_type: ESFJ-A
+    photo_url: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
+    personality_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ESFJ-A.svg
+    name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
   maxim:
-    maxim_tips: 想对你说
-    maxim_top: 青春没有售价，
-    maxim_bottom: 疯狂就在当下。
+    maxim_tips: 座右铭
+    maxim_top: 生活明朗，
+    maxim_bottom: 万物可爱。
   buff:
-    buff_tips: 描述
-    buff_top: 极品 小学生
-    buff_bottom: 痴呆指数 120%
+    buff_tips: 特长
+    buff_top: 脑回路新奇的 酸菜鱼
+    buff_bottom: 二次元指数 MAX
   game:
     game_tips: 爱好游戏
-    game_title: 和平精英
-    game_uid: "UID: 4125535520"
-    game_bg: https://resource.joker2yue.cn/blog/images/about/game/pubgmobi.jpg
+    game_title: 原神
+    game_uid: "UID: 125766904"
+    game_bg: https://bu.dusays.com/2023/04/22/64433bf26e25d.webp
   comic:
-    comic_tips: 哔哩哔哩
-    comic_title: 推荐博主
+    comic_tips: 爱好番剧
+    comic_title: 追番
     comic_list:
-      - name: 韩顺平
-        href: https://space.bilibili.com/651245581
-        cover: https://resource.joker2yue.cn/blog/images/about/comic/hanshunping.png
-      - name: 翁恺c语言
-        href: https://www.bilibili.com/video/BV1dr4y1n7vA/
-        cover: https://resource.joker2yue.cn/blog/images/about/comic/wenkai.png
-      - name: 遇见狂神说
-        href: https://space.bilibili.com/95256449
-        cover: https://resource.joker2yue.cn/blog/images/about/comic/kuangshen.png
-      - name: 黑马程序员
-        href: https://space.bilibili.com/37974444
-        cover: https://resource.joker2yue.cn/blog/images/about/comic/heima.png
-      - name: 动力节点
-        href: https://space.bilibili.com/76542346
-        cover: https://resource.joker2yue.cn/blog/images/about/comic/powernode.png
+      - name: 约定的梦幻岛
+        href: https://www.bilibili.com/bangumi/media/md5267750/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://bu.dusays.com/2023/05/27/647166c44b414.webp
+      - name: 咒术回战
+        href: https://www.bilibili.com/bangumi/media/md28229899/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://bu.dusays.com/2023/05/24/646db4398832e.webp
+      - name: 紫罗兰永恒花园
+        href: https://www.bilibili.com/bangumi/media/md8892/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://bu.dusays.com/2023/05/24/646db43983d99.webp
+      - name: 鬼灭之刃
+        href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://bu.dusays.com/2023/05/24/646db439856a0.webp
+      - name: JOJO的奇妙冒险 黄金之风
+        href: https://www.bilibili.com/bangumi/media/md135652/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://bu.dusays.com/2023/05/30/64760e38d651a.webp
   like:
     like_tips: 关注偏好
     like_title: 数码科技
@@ -97,20 +99,11 @@
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好
-    music_title: 薛之谦、流行、华语
-    music_bg: https://resource.joker2yue.cn/blog/images/about/music/joker_xue.jpg
-    music_link: /music/?id=648886106&server=netease
+    music_title: 许嵩、民谣、华语流行
+    music_bg: https://p2.music.126.net/Mrg1i7DwcwjWBvQPIMt_Mg==/79164837213438.jpg
+    music_link: /music
   reward_list:
-    - name: 宇·默
-      amount: 9
-      suffix: ''
-      datatime: 2023-08-28
-    - name: 薛之谦的小烨烨
-      amount: 6.6
-      datatime: 2023-08-29
-    - name: 时间依夏
-      amount: 5
-      datatime: 2023-09-02
-    - name: ankeking
-      amount: 10
-      datatime: 2023-11-12
+    - name: 孤影
+      amount: 125
+      datatime: 2023-11-19
+      suffix: 贝壳
