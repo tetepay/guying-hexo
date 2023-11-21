@@ -14,7 +14,10 @@ menu:
     追番页: /bangumis/ || anzhiyu-icon-bilibili
     相册集: /album/ || anzhiyu-icon-images
     小空调: /air-conditioner/ || anzhiyu-icon-fan
+ 
+  魔改功能:
     电玩城: /game/ || anzhiyu-icon-fan
+    放映厅: /video/ || anzhiyu-icon-fan
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
