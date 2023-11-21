@@ -1,4 +1,9 @@
 menu:
+  魔改功能:
+    电玩城: /game/ || anzhiyu-icon-fan # 来自https://blog.shineyu.cn/game-page-tutorial.html
+    放映厅: /video/ || anzhiyu-icon-fan # 来自https://blog.shineyu.cn/video-page-tutorial.html
+    观影足迹: /collect/ || anzhiyu-icon-fan # 来自https://meuicat.com/blog/42/#%E8%B6%B3%E8%BF%B9%E9%A1%B5
+
   文章:
     隧道: /archives/ || anzhiyu-icon-box-archive
     分类: /categories/ || anzhiyu-icon-shapes
@@ -15,10 +20,6 @@ menu:
     相册集: /album/ || anzhiyu-icon-images
     小空调: /air-conditioner/ || anzhiyu-icon-fan
  
-  魔改功能:
-    电玩城: /game/ || anzhiyu-icon-fan
-    放映厅: /video/ || anzhiyu-icon-fan
-
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
