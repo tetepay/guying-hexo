@@ -3,6 +3,7 @@ menu:
     电玩城: /game/ || anzhiyu-icon-fan # 来自https://blog.shineyu.cn/game-page-tutorial.html
     放映厅: /video/ || anzhiyu-icon-fan # 来自https://blog.shineyu.cn/video-page-tutorial.html
     观影足迹: /collect/ || anzhiyu-icon-fan # 来自https://meuicat.com/blog/42/#%E8%B6%B3%E8%BF%B9%E9%A1%B5
+    Memos清单: /project/ || anzhiyu-icon-fan # 来自https://meuicat.com/blog/76/
 
   文章:
     隧道: /archives/ || anzhiyu-icon-box-archive
@@ -1190,8 +1191,8 @@ greetingBox:
 post_head_ai_description:
   enable: true
   gptName: AnZhiYu
-  mode: local # 默认模式 可选值: tianli/local
-  switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
+  mode: tianli # 默认模式 可选值: tianli/local
+  switchBtn: true # 可以配置是否显示切换按钮 以切换tianli/local
   btnLink: https://afdian.net/item/f18c2e08db4411eda2f25254001e7c00
   randomNum: 3 # 按钮最大的随机次数，也就是一篇文章最大随机出来几种
   basicWordCount: 1000 # 最低获取字符数, 最小1000, 最大1999
@@ -1243,12 +1244,11 @@ dynamicEffect:
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # 自定义css
-    # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
-
+    - <link rel="stylesheet" href="/css/project.css"> # 清单页样式
   bottom:
-    # 自定义js
-    # - <script src="/js/xxx"></script>
+    - <script type="text/javascript" src="/js/memos/waterfall.min.js"></script> # memos清单页 - waterfall瀑布流
+    - <script type="text/javascript" src="/js/memos/project.js"></script> # memos清单页 - 逻辑函数
+
 
 # CDN
 # Don't modify the following settings unless you know how they work
