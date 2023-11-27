@@ -143,13 +143,7 @@ hexo.extend.helper.register("findArchivesTitle", function (page, menu, date) {
   return loop(menu) || defaultTitle;
 });
 
-hexo.extend.helper.register('isImgOrUrl', function (path) {
-  const imgTestReg = /\.(png|jpe?g|gif|svg|webp)(\?.*)?$/i
-  return path.indexOf('//') !== -1 || imgTestReg.test(path)
-})
-
-
-hexo.extend.helper.register('toStar', function (num) {
+hexo.extend.helper.register('toStar', function(num) {
   let tmp = ''
   for (let i = 0; i < Math.floor(num); i++) { tmp += '<i class="iconfont icat-star"></i>' } // 整数部分加 实心星星
   if (num - Math.floor(num) != 0) tmp += '<i class="iconfont icat-star-half"></i>' // 小数部分转成 半星
@@ -158,3 +152,7 @@ hexo.extend.helper.register('toStar', function (num) {
 })
 // 足迹藏宝阁星星
 
+hexo.extend.helper.register('isImgOrUrl', function (path) {
+  const imgTestReg = /\.(png|jpe?g|gif|svg|webp)(\?.*)?$/i
+  return path.indexOf('//') !== -1 || imgTestReg.test(path)
+})

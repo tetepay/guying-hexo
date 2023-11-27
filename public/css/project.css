@@ -7,13 +7,13 @@
 .list_item {
     display: inline-block;
     width: calc(33.333% - .5rem);
-    background: #ffe3dd;
+    background: #87dff5;
     border-radius: 12px;
     border: var(--style-border-always);
     box-shadow: var(--icat-shadow-border);
     padding: 10px 1rem 1.2rem;
-    border: 2px dashed #9ddefc;
-    --todo-border: 1px solid #9ddefc;
+    border: 2px dashed #044969;
+    --todo-border: 1px solid #044969;
     margin-right: 1rem;
     margin-bottom: 1rem;
 }
